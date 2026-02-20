@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Society</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+</head>
+
+<body>
+    <header class="navbar animate__animated animate__fadeInDown">
+        <div class="logo">
+            <img src="Screenshot_2026-02-09_080138-removebg-preview.png" alt="Logo">
+            <div id="menu-icon" class="menu-icon">
+            <i class="ph ph-list"></i>
+        </div>
+        </div>
+        
+        <nav id="menu-list" class="hidden">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#admin">Admin</a>
+            <a href="#member">Member</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+
+    <section id="home" class="featured-box">
+        <div class="featured-text">
+            <span class="tag cormorant-garamond">Carpe Diem</span>
+            <h1>Lorem Ipsum Society</h1>
+            <p>
+                Ruang bagi orang-orang dengan pikiran bebas, terbuka, dan kritis.
+                Tempat berbagi ide tanpa batas, berdiskusi tanpa takut beda pendapat,
+                dan tumbuh bersama lewat sudut pandang yang beragam.
+                Berani berpikir, berani berbeda, tetap saling menghargai.
+            </p>
+            <a class="btn" href="#about">More Info</a>
+        </div>
+        <div class="featured-image">
+            <div class="image">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="featured-box">
+        <div class="featured-image image">
+            <img src="lorem ipsum img.jpeg" alt="">
+        </div>
+        <div class="featured-text">
+            <h1>
+                About Us
+            </h1>
+            <p>
+                Kami adalah sekumpulan siswa dari Sekolah Menengah Kejuruan Telesandi yang percaya bahwa pikiran adalah
+                ruang terbuka—luas, bebas, dan tak seharusnya dibatasi oleh dinding ketakutan. Grup ini lahir dari
+                keinginan untuk menghadirkan tempat di mana gagasan dapat tumbuh seperti benih yang disiram oleh sudut
+                pandang yang beragam. Di sini, perbedaan bukanlah jurang, melainkan jembatan untuk saling memahami. Kami
+                berdiskusi tanpa ragu, menyampaikan pendapat tanpa khawatir, dan belajar melihat dunia dari lebih dari
+                satu arah.
+            </p>
+        </div>
+    </section>
+
+    <section id="admin" class="featured-admin">
+        <div class="admin">
+            <h1>The Admins</h1>
+        </div>
+        <div class="featured-admin-card">
+            <div class="card-admin">
+                <div class="img-admin">
+                    <img src="kurt cobain-admin2.jpeg" alt="Admin-1">
+                </div>
+                <div class="text-admin">
+                    <h3>Rafify</h3>
+                    <p>Admin Lorem Ipsum Society <br>Pertama </p>
+                </div>
+                <div class="btn-admin">
+                    <a class="btn-admin-1" href="/admin-1/index.html">About Me</a>
+                </div>
+            </div>
+            <div class="card-admin">
+                <div class="img-admin">
+                    <img src="nagumo-admin1.jpeg" alt="Admin-2">
+                </div>
+                <div class="text-admin">
+                    <h3>Maykel</h3>
+                    <p>Admin Lorem Ipsum Society <br> Kedua</p>
+                </div>
+                <div class="btn-admin">
+                    <a href="/admin-2/index.html" class="btn-admin-2">About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="member" class="featured-admin">
+        <div class="admin">
+            <h1>The Members</h1>
+        </div>
+        <div class="featured-member-card">
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="ChillGuy.jpg" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Brandon Za Human</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            Name: Brandon
+                            <br>
+                            Hobby: Playing Game
+                            <br>
+                            Sign: Gemini
+                            <br>
+                            <br>
+                            Don't praise me, I'm only human.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 112932.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Dlee</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                           Name: Dlee <br>
+                            Hobby: Main SIM Racing <br>
+                            Sign: - <br> <br>
+                            Knows your limit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113011.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Hann</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name: hanz py.js.css <br>
+                        Hobby: Main coding <br>
+                        Sign:- <br> <br>
+                         life = true <br>
+
+                         If life == true: <br>
+                         Hardwork = true <br>
+                        If hardwork == true <br>
+                        Print("succes") <br>
+                        Else: <br>
+                        Print("bull shit") <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113031.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Depin</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113055.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Ibzass</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name:saz <br>
+                        Hobby:low cortisol <br>
+                        Sign: - <br> <br>
+                        hari ini adalah hari manusia lahir dan  hari ini adalah hari manusia menerima kematian
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-member-card">
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113114.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Sunny</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                         Name: Shiny <br>
+                        Hobby: ngocok bounty hunt <br>
+                        Sign: 🫵⚫ <br> <br>
+                         ya allah, jika jalan hidupku salah, boleh dong sesekali di sharelock
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113151.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Kiell</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113238.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Nandaa</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name : Nanda Goyang <br>
+                        Hobby : Tidur sama ngopi <br>
+                        Sign : Taurus <br> <br>
+                        I'm The One Who Cooks Microwave Meals
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113300.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Adzkalaii</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name: Adzkalaii <br>
+                        Hobby: makan <br>
+                        Sign: avatar risol mayones <br> <br>
+                        Kapan maghrib nya woi 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113323.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>DjoJynn</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-member-card">
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113350.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Daunasing</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113407 - Copy.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Faust</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name: Aldy Maling Besi <br>
+                        Hobby: Main Burung <br>
+                        Sign: Leo <br><br>
+                        A cake is a cake even though it's a cupcake
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113427 - Copy.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Fazbeario</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113456 - Copy.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Hexenta</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name: Epta <br>
+                        Hobby: Musik <br>
+                        Sign: Taurus <br><br>
+                        Qoute: This is this, that is that
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113524 - Copy.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Maulanaa</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-member-card">
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113545 - Copy.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Miyamura</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113601.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Nurcy</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113618.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Revann</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113634.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Rezza~</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="Screenshot 2026-02-18 113655.png" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>UL</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-member-card">
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="WhatsApp Image 2026-02-20 at 23.02.18.jpeg" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Yerpitou</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name:Ali <br>
+                        Hobby:Tidur <br>
+                        Sign: - <br> <br>
+                        Huh... y'all ain't half bad keep makin' it worth my bullet fees
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="WhatsApp Image 2026-02-20 at 23.11.40-gabriel-hd.jpeg" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Gabriell</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                        Name: Gabriell <br>
+                        Hobby: Baca buku <br>
+                        Sign: Virgo <br> <br>
+                        Do'akan usahamu. Usahakan do'amu
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="No Profil.jpg" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Kikyy</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-member" style="position: relative;">
+                <div class="img-member">
+                    <img src="No Profil.jpg" alt="">
+                </div>
+                <div class="text-member">
+                    <h3>Kurniawan</h3>
+                    <div class="content">
+                        <h3>About Me</h3>
+                        <p>
+                            No anything here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1 class="contact-title">Contact</h1>
+        <div class="contact-container">
+            <div class="contact-box attention-box">
+                <h2>ATTENTION</h2>
+                <p>
+                    Grup ini adalah ruang bebas untuk berpikir dan berpendapat.
+                    Tidak banyak aturan, tapi tetap ada kesadaran.
+                    Bebas bukan berarti asal, dan berani bukan berarti tanpa arah.
+                    <br><br>
+                    Ada waktu untuk berani, ada waktu untuk hati-hati,
+                    dan orang bijak memahami mana yang harus dilakukan.
+                </p>
+            </div>
+            <div class="contact-join">
+                <h2>JOIN US</h2>
+                <p>
+                    Kami senang anda mengunjungi website kami.
+                    Jika anda tertarik, Anda bisa bergabung dengan kami.
+                </p>
+                <a href="https://chat.whatsapp.com/ET43rHJtoHI7IeEvcLsnYX" class="btn-join">Join Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h1>
+                    Lorem Ipsum Society
+                </h1>
+                <p>
+                    Kami senang karena anda telah mengunjungi website kami
+                </p>
+            </div>
+            <div class="list-social">
+                <div class="social-med">
+                    <i class="uil uil-envelope-edit"></i>
+                    <h2>loremipsum@gmail.com</h2>
+                </div>
+                <div class="social-med">
+                    <i class="uil uil-phone"></i>
+                    <h2>+62 812-8655-4669</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <script src="script.js"></script>
+</body>
+
+</html>
